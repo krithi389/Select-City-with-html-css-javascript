@@ -1,0 +1,51 @@
+body{
+    background-color:rgb(198, 116, 239);
+}
+
+
+.all{
+    display: grid;
+    place-items: center;
+    
+    
+    
+}
+.all select{
+       border:none;
+       width:30%;
+       height:30px;
+       border-radius: 8px;
+}
+.all select:focus
+{
+    outline: none;
+}
+
+
+.all button{
+    margin-top: 30px;
+    width: 40%;
+    height: 60%;
+    border-radius: 10px;
+    border: none;
+    background-color:darkblue;
+    color: whitesmoke;
+}
+.all input::placeholder{
+    color:black;
+}
+.city{
+    color:red;
+}
+.select{
+    color: red;
+    position: relative;
+    bottom:40%
+}
+.details{
+    color:forestgreen;
+}
+
+    
+
+
